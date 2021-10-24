@@ -5,6 +5,7 @@ var myApp = require('./myApp');
 
 
 bGround.log("Hello World");
+console.log("Hello World");
 
 
 
