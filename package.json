@@ -7,7 +7,7 @@
 	"keywords": ["freecodecamp", "hello", "world"],
 	"dependencies": {
 		"express": "^4.14.0",
-		"moment": "2.1.4"
+		"moment": "2.14.0"
 	},
 	"main": "server.js",
 	"scripts": {
