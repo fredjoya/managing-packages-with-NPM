@@ -1,7 +1,7 @@
 {
 	"author": "fredjoya",
 	"description": "web app example",
-	"name": "fcc-learn-npm-package-json",
+	"name": "fcc-learn-node-with-express",
 	"license": "MIT",
 	"version": "1.2.0",
 	"keywords": [
@@ -21,7 +21,6 @@
 		"start": "node server.js"
 	},
 	"engines": {
-		"node": "14.18.1",
-		"npm": "6.14.15"
+		"node": "14.18.1"
 	}
 }
