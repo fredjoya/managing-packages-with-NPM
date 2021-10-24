@@ -12,12 +12,13 @@ app.use(function(req, res, next) {
 });
 
 
-app.use(function(req, res, next) {
-    
-    bodyParser.urlencoded({extended: false})
-    console.log(bodyParser);
-    next();
-});
+// parse application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({ extended: false }))
+ 
+// parse application/json
+app.use(bodyParser.json());
+
+
 
 
 bGround.log("Hello World");
